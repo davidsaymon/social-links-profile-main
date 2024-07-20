@@ -1,6 +1,10 @@
 @use 'hero';
 @use 'variaveis';
 
+@font-face {
+    font-family: Inter-VariableFont_slnt, sans-serif;
+    src: url(../../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
 
 * {
     margin: 0;
@@ -16,6 +20,7 @@ body {
     text-align: center;
     padding-bottom: 60px;
     margin-bottom: 60px;
+    font-family: Inter-VariableFont_slnt, sans-serif;
 
     
 }
@@ -62,7 +67,7 @@ main {
 
 .ocupation {
     color: variaveis.$corTextoSecundario;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .social {
