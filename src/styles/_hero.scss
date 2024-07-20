@@ -1,0 +1,12 @@
+@use 'variaveis';
+
+
+.cabecalho {
+    &__title {
+        color: variaveis.$corTextoPrincipal;
+        &__subTitle {
+            color: variaveis.$corTextoLocation;
+
+        }
+    }
+}
